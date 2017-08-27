@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul.nav {
+    display: inline-flex;
+}
+.company-list{
+    width: 200px;
+    height: 125px;
+    float:left;
+}
+.panel-body{
+    border:1px solid #ccc;
+}
+.p-10{
+    padding:10px;
+}
+.has-error{
+    border-color: red;
+}
+.text-red{
+    color:red;
+}
+.m-10{
+    margin-left: 10px;
+}
+#search-filter{
+    width:100%;
+}
+.glyphicon-triangle-bottom{
+    text-align: right;
+}
+.form-control + .glyphicon {
+  position: absolute;
+  right: 0;
+  padding: 8px 27px;
+}
